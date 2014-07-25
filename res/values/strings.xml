@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Revolumote</string>
+ 
+    <!-- MENU -->
+    <string name="menu_settings">Settings</string>
+    <string name="menu_fontplus">Font +</string>
+    <string name="menu_fontminus">Font -</string>
+    <string name="menu_quit">Quit</string>
+    
+    <!-- PREFS -->
+    <string name="pref_cat_remote">Remote</string>
+    <string name="pref_code">Control code</string>
+    <string name="pref_code_set">The remote code is</string>
+    <string name="pref_code_sum">Enter the remote code control</string>
+            
+    <string name="pref_cat_application">Application (Soon)</string>   
+    <string name="pref_sensor">Sensor</string>
+    <string name="pref_sensor_sum">Wakeup screen if the phone is moved</string>
+        
+    <string name="pref_soundeffects">Sound effects</string>
+    <string name="pref_sound_sum">Play a sound on phone unlocked</string>
+           
+    <!-- MainActivity -->
+    <string name="main_code_missing">You must set remote code\nin settings!</string>
+    <string name="main_set_saved">Settings saved</string>
+        
+	<!-- Licencing -->
+
+	<string name="check_license">Check license</string>
+	<string name="checking_license">Checking license...</string>
+	<string name="dont_allow">Don\'t allow the user access</string>
+	<string name="allow">Allow the user access</string>
+	<string name="application_error">Application error: %1$s</string>
+	<!-- Unlicensed dialog messages -->
+	<string name="unlicensed_dialog_title">Application not licensed</string>
+	<string name="unlicensed_dialog_body">This application is not licensed. Please purchase it from Android Market.</string>
+	<string name="buy_button">Buy app</string>
+	<string name="quit_button">Exit</string>
+	
+</resources>

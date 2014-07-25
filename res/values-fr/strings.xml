@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Revolumote</string>
+ 
+    <!-- MENU -->
+    <string name="menu_settings">Réglages</string>
+    <string name="menu_fontplus">Affichage +</string>
+    <string name="menu_fontminus">Affichage -</string>
+    <string name="menu_quit">Quitter</string>
+    
+    <!-- PREFS -->
+    <string name="pref_cat_remote">Télécommande</string>
+    <string name="pref_code">Code de la télécommande</string>
+    <string name="pref_code_set">Le code est</string>
+	<string name="pref_code_sum">Entrer le code</string>
+            
+    <string name="pref_cat_application">Application (En développement)</string>   
+    <string name="pref_sensor">Détecteur de mouvement</string>
+    <string name="pref_sensor_sum">Déverouille l\'écran si le téléphone est relevé</string>
+    
+    <string name="pref_soundeffects">Effets sonores</string>
+    <string name="pref_sound_sum">Jouer un son lors du déverrouillage de l\'écran</string>
+            
+    <!-- MainActivity -->
+    <string name="main_code_missing">Vous devez régler le code télécommande\ndans les réglages!</string>
+    <string name="main_set_saved">Réglages sauvegardés</string>
+    
+	<!-- Licencing -->
+
+	<string name="check_license">Check license</string>
+	<string name="checking_license">Checking license...</string>
+	<string name="dont_allow">Don\'t allow the user access</string>
+	<string name="allow">Allow the user access</string>
+	<string name="application_error">Application error: %1$s</string>
+	<!-- Unlicensed dialog messages -->
+	<string name="unlicensed_dialog_title">Application not licensed</string>
+	<string name="unlicensed_dialog_body">This application is not licensed. Please purchase it from Android Market.</string>
+	<string name="buy_button">Buy app</string>
+	<string name="quit_button">Exit</string>
+	
+</resources>

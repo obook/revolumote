@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".preferences.RevolumotePreferences" >
+
+    <PreferenceCategory android:title="@string/pref_cat_remote" >
+        
+        <EditTextPreference
+            android:title="@string/pref_code"
+            android:name="EditText Preference"
+            android:defaultValue=""
+            android:key="editTextRemoteCode"
+            android:inputType="number" 
+            android:maxLength="8"
+            android:summary="@string/pref_code_sum" />
+
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/pref_cat_application" >
+        
+        <CheckBoxPreference
+            android:title="@string/pref_sensor"
+            android:enabled="false"
+            android:defaultValue="false"
+            android:key="checkBoxSensor"
+            android:summary="@string/pref_sensor_sum" />
+
+         <CheckBoxPreference
+            android:title="@string/pref_soundeffects"
+            android:enabled="false"
+            android:defaultValue="false"
+            android:key="checkBoxSoundEffects"
+            android:summary="@string/pref_sound_sum" />
+         
+    </PreferenceCategory>
+  
+
+</PreferenceScreen>

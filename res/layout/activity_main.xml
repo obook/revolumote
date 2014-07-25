@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    tools:context=".MainActivity" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_weight="5" >
+
+        <Button
+            android:id="@+id/button_red"
+            style="@style/ButtonFontStyleMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/red_button"
+            android:text="←"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_yellow"
+            style="@style/ButtonFontStyleMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/yellow_button"
+            android:text="Ιnfo"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_green"
+            style="@style/ButtonFontStyleMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/green_button"
+            android:text="Μenu"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_blue"
+            style="@style/ButtonFontStyleMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/blue_button"
+            android:text="Rech"
+            android:textColor="@android:color/white" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_weight="5" >
+
+        <Button
+            android:id="@+id/button_1"
+            style="@style/ButtonFontStyleBig"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_button"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/button_2"
+            style="@style/ButtonFontStyleBig"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_button"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/button_3"
+            style="@style/ButtonFontStyleBig"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_button"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/button_4"
+            style="@style/ButtonFontStyleBig"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_button"
+            android:text="4" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_weight="5" >
+
+        <Button
+            android:id="@+id/button_5"
+            style="@style/ButtonFontStyleBig"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_button"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/button_6"
+            style="@style/ButtonFontStyleBig"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_button"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/button_7"
+            style="@style/ButtonFontStyleBig"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_button"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/button_8"
+            style="@style/ButtonFontStyleBig"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_button"
+            android:text="8" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_weight="5" >
+
+        <Button
+            android:id="@+id/button_9"
+            style="@style/ButtonFontStyleBig"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_button"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/button_0"
+            style="@style/ButtonFontStyleBig"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_button"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/button_play"
+            style="@style/ButtonFontStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gray_button"
+            android:text="Pause"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_rec"
+            style="@style/ButtonFontStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_button"
+            android:text="Rec"
+            android:textColor="#FF2222"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_weight="5" >
+
+        <Button
+            android:id="@+id/button_vol_dec"
+            style="@style/ButtonFontStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/blue_button"
+            android:text="Vol-"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_up"
+            style="@style/ButtonFontStyleBig"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gray_button"
+            android:text="↑"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_mute"
+            style="@style/ButtonFontStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/pink_button"
+            android:text="Mute"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_vol_inc"
+            style="@style/ButtonFontStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/blue_button"
+            android:text="Vol+"
+            android:textColor="@android:color/white" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_weight="5" >
+
+        <Button
+            android:id="@+id/button_left"
+            style="@style/ButtonFontStyleBig"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gray_button"
+            android:text="←"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_ok"
+            style="@style/ButtonFontStyleMedium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gray_button"
+            android:text="OK"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_right"
+            style="@style/ButtonFontStyleBig"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_column="2"
+            android:background="@drawable/gray_button"
+            android:text="→"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_prgm_inc"
+            style="@style/ButtonFontStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_button"
+            android:text="Pgm+" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_weight="5" >
+
+        <Button
+            android:id="@+id/button_power"
+            style="@style/ButtonFontStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_button"
+            android:text="On/Off" />
+
+        <Button
+            android:id="@+id/button_down"
+            style="@style/ButtonFontStyleBig"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gray_button"
+            android:text="↓"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_home"
+            style="@style/ButtonFontStyleMedium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_button"
+            android:text="Free"
+            android:textColor="#ff0000"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button_prgm_dec"
+            style="@style/ButtonFontStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_button"
+            android:text="Pgm-" />
+    </TableRow>
+
+</TableLayout>
