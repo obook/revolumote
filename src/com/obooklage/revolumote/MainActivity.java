@@ -1,6 +1,6 @@
 /* 
  * Project : Revolumote
- * Autor : obooklage
+ * Author : obooklage
  *
  * Last commit by $Author: obooklage $
  * Date - $Date: 2014-07-25 01:52:28 +0200 (ven. 25 juil. 2014) $
