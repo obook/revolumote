@@ -4,7 +4,9 @@ revolumote
 
 Encore une télécommande pour freebox revolution !
 
-
 À l'origine créée pour un usage personnel, elle est volontairement très simplifiée.
 Convient aux petits téléphones et aux tablettes.
+
 Code pour Android.
+
+Application : https://play.google.com/store/apps/details?id=com.obooklage.revolumote
